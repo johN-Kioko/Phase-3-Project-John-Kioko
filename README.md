@@ -3,10 +3,11 @@
 ![laboratory-563423_1280](https://github.com/johN-Kioko/Phase-3-Project-John-Kioko/assets/141914238/026d4390-5abe-4926-a6c9-4054083113d5)
 
 1.	INTRODUCTION
+
 An NGO in the health sector, wants to learn about the trends in the vaccination space. In the year 2009, a pandemic caused by the H1N1 influenza virus, colloquially named "swine flu," swept across the world. Researchers estimate that in the first year, it was responsible for between 151,000 to 575,000 deaths globally. The Gates foundation wants to find out if they can forecast vaccination of an individual based on specific parameters.
 
 
-2.	BUSINESS PROBLEM
+3.	BUSINESS PROBLEM
 Research question.
 Can one predict whether a person got seasonal flu or H1N1 vaccine using information they shared about their backgrounds, opinions, and health behaviors?
 
