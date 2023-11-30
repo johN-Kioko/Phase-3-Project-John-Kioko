@@ -8,6 +8,7 @@ An NGO in the health sector, wants to learn about the trends in the vaccination 
 
 
 3.	BUSINESS PROBLEM
+   
 Research question.
 Can one predict whether a person got seasonal flu or H1N1 vaccine using information they shared about their backgrounds, opinions, and health behaviors?
 
@@ -16,6 +17,7 @@ This project aims at getting to know whether a person has received the seasonal 
 
 
 3.	DATA UNDERSTANDING
+   
 The data in use is from Data driven made up of 26707 rows and 36 columns(12 categorical columns and 24 are numerical.) Namely:
 
 •	'respondent_id'- Unique id
@@ -56,28 +58,34 @@ The data in use is from Data driven made up of 26707 rows and 36 columns(12 cate
 •	'employment_occupation'- what they do for a living.
 
 Data Preparation.
+
 •	Loading the data. The data set was loaded into the notebook. A data frame was then created and displayed to show content of the data as well as how the variables relate to each other.
 •	Cleaning data. The data was analyzed, checked for duplicates and missing values. Missing values were dropped and irrelevant columns were dropped as well.
+
 Exploratory analysis.
+
 Visualizations were created to show distribution of the variables in our data set. Multivariate analysis was also done to show relationships between some variables. Correlations were also studied between the variables.
 ![image](https://github.com/johN-Kioko/Phase-3-Project-John-Kioko/assets/141914238/26b15e36-1682-4c4f-bd26-48c8d7b6172e)
 The lighter values indicate a high value of correlation while the darker values indicate low value of correlation.
 
 4.	MODELLING
+   
 The models that were used are:
 •	Random Forest Classifier.
 •	Logistic Regression Model.
 •	Decision Tree Classifier model.
 •	KNN Model
 
-5.	CONCLUSION
+6.	CONCLUSION
+   
 •	The best working model was the logistic regression with an accuracy of 83.5% .
 •	The accuracy of the model aims in learning the demographics of people to work on to get vaccinated.
 •	People with higher education have a more likelihood of getting the vaccine.
 •	People in the health care industry have a higher chance of getting the vaccine.
 •	Most people who have a more likelihood to get the vaccine are over 65 years.
 
-6.	RECOMMENDATIONS
+8.	RECOMMENDATIONS
+   
 •	The foundation should create more awareness by using multiple channels such as social media and websites in order to reach people below 65 years as well.
 •	The foundation should partner with community organizations to provide education about vaccination.
 •	They should perform further investigation on what parameters that need to be added to improve model accuracy
